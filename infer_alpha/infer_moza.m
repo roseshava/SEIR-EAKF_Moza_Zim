@@ -1036,6 +1036,8 @@ Dl=4; Du=4; %infectious period
 xmin=[mul,Zl,Dl,ones(1,num_loc)*betal,ones(1,num_loc)*alphal];
 xmax=[muu,Zu,Du,ones(1,num_loc)*betau,ones(1,num_loc)*alphau];
 
+%%%lower bounds \alpha
+
 xmin(15)=0.007;
 xmin(16)=0.02;
 xmin(17)=0.03;
@@ -1047,6 +1049,7 @@ xmin(22)=0.01;
 xmin(23)=0.01;
 xmin(24)=0.009;
 xmin(25)=0.005;
+
 
 xmax(19)=0.2; %maputo cidade
 
