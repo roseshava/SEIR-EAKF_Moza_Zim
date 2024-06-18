@@ -29,6 +29,7 @@ end
 xmin=[xmin,mul,Zl,Dl,ones(1,num_loc)*betal,ones(1,num_loc)*alphal];
 xmax=[xmax,muu,Zu,Du,ones(1,num_loc)*betau,ones(1,num_loc)*alphau];
 
+%%%lower bounds \alpha
 
 xmin(70)=0.007;
 xmin(71)=0.02;
@@ -42,7 +43,9 @@ xmin(78)=0.01;
 xmin(79)=0.009;
 xmin(80)=0.005;
 
-xmax(74)=0.2;
+
+
+xmax(74)=0.2; %maputo cidade
 
 
 
